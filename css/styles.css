@@ -1,10 +1,31 @@
+* {
+    outline: 1px solid red;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+
 .ziti {
+    height: auto;
+    width: 500px;
+}
+
+.pizza {
+    height: auto;
+    width: 500px;
+}
+
+.peppers {
     height: auto;
     width: 500px;
 }
 
 h1 {
     text-align: center;
+    font-family: "ONE PIECE";
+    font-size: 70px;
 }
 
 .rel-link {
@@ -12,5 +33,5 @@ h1 {
 }
 
 .original-recipe {
-    text-align: center;
+    color: red;
 }
