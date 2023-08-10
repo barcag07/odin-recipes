@@ -72,7 +72,8 @@ h1 {
 }
 
 .pizza-link,
-.peppers-link {
+.peppers-link,
+.baked-ziti-link {
     /* outline: 1px solid red; */
     padding: 5px;
     margin: 8px 10px;
