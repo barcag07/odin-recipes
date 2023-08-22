@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin:0px;
     padding:0px;
     box-sizing: border-box;
@@ -28,10 +28,54 @@ h1 {
     font-size: 70px;
 }
 
-.rel-link {
-    list-style:circle;
-}
-
 .original-recipe {
     color: red;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(204, 69%, 50%);
+}
+
+.title-container h1 {
+    color: white;
+    padding: 5px;
+}
+
+.rel-link-container {
+    display: flex;
+    justify-content: center;
+    background-color: #d6e9fe;
+}
+
+.rel-link {
+    list-style:none;
+    display: flex;
+    /* outline: 1px solid red; */
+    width: 900px;
+    justify-content: space-around;
+    height: 50px;
+    margin: 10px;
+}
+
+.rel-link li {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid hsl(203, 70%, 37%);
+    flex: auto;
+
+}
+
+.rel-link li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: hsl(204, 69%, 50%);
+}
+
+.sanji-container {
+    display: flex;
+    justify-content: center;
 }
