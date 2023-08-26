@@ -57,6 +57,7 @@ h1 {
     justify-content: space-around;
     height: 50px;
     margin: 10px;
+
 }
 
 .rel-link li {
@@ -65,8 +66,8 @@ h1 {
     align-items: center;
     justify-content: center;
     border: 2px solid hsl(203, 70%, 37%);
-    flex: auto;
-
+    flex: 1;
+    text-align: center;
 }
 
 .rel-link li a {

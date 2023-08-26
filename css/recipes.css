@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+
+.recipe-title-container {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(204, 69%, 50%);
+}
+
+.recipe-title {
+    text-align: center;
+    font-family: "ONE PIECE";
+    font-size: 70px;
+    padding: 5px;
+}
+
+.rel-link-container {
+    display: flex;
+    justify-content: center;
+    background-color: #d6e9fe;
+}
+
+.rel-link {
+    list-style:none;
+    display: flex;
+    /* outline: 1px solid red; */
+    width: 900px;
+    justify-content: space-around;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.rel-link li {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid hsl(203, 70%, 37%);
+    flex: 1;
+    text-align: center;
+}
+
+.rel-link li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: hsl(204, 69%, 50%);
+}
+
+
+.image-description-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* border: 3px solid red; */
+    gap: 30px;
+}
+
+.ziti {
+    height: 500px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ingredients-steps-container {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ingredients-container {
+    /* border: 3px solid blue; */
+    flex: 1;
+}
+
+.steps-container {
+    /* border: 3px solid orange; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    flex: 3;
+}
+
+ul.ingredients,
+ol.steps {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ingredients,
+.steps {
+    padding-left: 20px
+}
+
+.ingredients li,
+.steps li {
+    /* list-style-type: none; */
+    /* border: 3px solid gold; */
+    margin: 5px 0;
+}
